@@ -22,11 +22,10 @@ my @slides2 = qw/
   build_perl.md
   hello_world.md
 /;
-my @slides = (@slides1, @slides2);
 
-path("$dst_dir/slide1.md")->spew_utf8(read_md(@slides1));
-path("$dst_dir/slide2.md")->spew_utf8(read_md(@slides2));
-path("$dst_dir/slide.md")->spew_utf8(read_md(@slides1, @slides2));
+path("$dst_dir/slide1.md")->spew_utf8(slurp_md(@slides1));
+path("$dst_dir/slide2.md")->spew_utf8(slurp_md(@slides2));
+path("$dst_dir/slide.md")->spew_utf8(slurp_md(@slides1, @slides2));
 
 sub slurp_md {
     my @slides = @_;
