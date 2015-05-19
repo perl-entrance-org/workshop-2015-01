@@ -28,7 +28,7 @@ path("$dst_dir/slide1.md")->spew_utf8(read_md(@slides1));
 path("$dst_dir/slide2.md")->spew_utf8(read_md(@slides2));
 path("$dst_dir/slide.md")->spew_utf8(read_md(@slides1, @slides2));
 
-sub read_md {
+sub slurp_md {
     my @slides = @_;
 
     my $slide
