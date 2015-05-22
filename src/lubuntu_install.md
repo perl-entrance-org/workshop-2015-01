@@ -20,4 +20,4 @@
     - [64bit版ISOダウンロード](http://cdimage.ubuntu.com/lubuntu/releases/14.04/release/lubuntu-14.04.2-desktop-amd64.iso)
 
 ## Lubuntuのインストール
-- Lubuntuのインストール方法については, [こちら](https://github.com/perl-entrance-org/workshop-2015-01/blob/master/lubuntu_install_usb.md)の資料を参照して下さい.
+- Lubuntuのインストール方法については, [こちら](https://github.com/perl-entrance-org/workshop-2015-01/blob/master/src/lubuntu_install_usb.md)の資料を参照して下さい.
