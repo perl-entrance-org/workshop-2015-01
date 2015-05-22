@@ -142,7 +142,7 @@ ___
 
 ___
 ## Lubuntuのインストール
-- Lubuntuのインストール方法については, [こちら](https://github.com/perl-entrance-org/workshop-2014-01/blob/master/lubuntu_install_usb.md)の資料を参照して下さい.
+- Lubuntuのインストール方法については, [こちら](https://github.com/perl-entrance-org/workshop-2015-01/blob/master/lubuntu_install_usb.md)の資料を参照して下さい.
 
 ---
 
