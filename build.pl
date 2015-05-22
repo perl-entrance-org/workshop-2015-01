@@ -8,7 +8,7 @@ use Path::Tiny;
 my $src_dir = './src';
 my $dst_dir = '.';
 my @slides1 = qw/
-  operating_system.md 
+  operating_system.md
   xcode.md
   ubuntu_install.md
   terminal_and_shell.md

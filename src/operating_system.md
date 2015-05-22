@@ -30,8 +30,8 @@
 
 ## Perl入学式では...
 - Windowsユーザの方は...
-    - USBメモリを利用して, Ubuntuの環境を構築します.
-    - USBを利用すれば, どの環境でもUbuntuを利用することができます.
+    - USBメモリを利用して, Lubuntuの環境を構築します.
+    - USBを利用すれば, どの環境でもLubuntuを利用することができます.
 - Macユーザ, Linuxユーザの方は...
     - 基本的に, 既にお手持ちのPC/環境を利用して頂きます.
     - Macの場合, 後々必要になる可能性が高い｢Xcode｣及び｢Command Line Tools for Xcode｣の導入を行います.
