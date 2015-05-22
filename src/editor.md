@@ -6,7 +6,7 @@
     - 特にこだわりのない方はSublime Text2を試してみましょう.
     - もちろん, EmacsやVimなど, 既に使い慣れているエディタがある方はそちらをお使いください.
 
-## インストール for Ubuntu
+## インストール for Lubuntu
 - [http://www.sublimetext.com/](http://www.sublimetext.com/)へアクセス, サンプルムービー下部の｢Download｣ボタンからダウンロードします.
 - ダウンロードしたファイルを右クリックして, `ここに展開する`をクリックします.
 - `Sublime Text2`というフォルダができるので, その中の`sublime text`をクリックして起動します.

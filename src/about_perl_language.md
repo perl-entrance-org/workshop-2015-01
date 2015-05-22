@@ -51,13 +51,14 @@
 - Perl5.12が登場. 2010年.
 - Perl5.14が登場. 2011年.
 - Perl5.16が登場. 2012年.
-- Perl5.18が登場. 2013年. 2014年4月現在の最新の安定版. この講義もPerl5.18を使用します.
+- Perl5.18が登場. 2013年.
+- Perl5.20が登場. 2014年. 現在の最新の安定版です. この講義もPerl5.20を使用します.
 
 ## Perl5 のバージョンの歴史
 - 5.(偶数) が安定版. 5.(奇数) が開発版です.
 - 基本的に最新版の一つ手前の安定版までがサポート対象です.
 - Perl5.8時代が長かったので, 今もPerl5.8が生き残っている現場はあるものの, 今ならPerl5.10以降だけを考えれば良いです.
-- Perl5.10以降から5.18まで, Perl初学者にとって大きな違いはあまりありません.
+- Perl5.10以降から5.20まで, Perl初学者にとって大きな違いはあまりありません.
 
 ## 様々な環境で使用可能
 - Linuxのほとんどのディストリビューションで標準装備となっています.
@@ -88,7 +89,7 @@
 
 ## 地域コミュニティ
 - pm.orgに登録されている, 公認のコミュニティ.
-    - Hokkaido.pm, Kushiro.pm, Sendai.pm, Niigata.pm, Tokyo.pm, Shibuya.pm, Yokohama.pm, Kamakura.pm, Nagoya.pm, Kansai.pm, Kyoto.pm, Fukuoka.pm
+    - Hokkaido.pm, Kushiro.pm, Sendai.pm, Niigata.pm, Tokyo.pm, Shibuya.pm, Yokohama.pm, Kamakura.pm, Gotanda.pm Nagoya.pm, Kansai.pm, Kyoto.pm, Fukuoka.pm
 - 非公認のコミュニティ
     - Hachioji.pm, Namba.pm, ...
 - 勉強会/イベント
@@ -97,10 +98,10 @@
 ## YAPC::Asia Tokyo
 - YAPC ... Yet Another Perl Conference
     - 年に一度行われる, 日本最大規模のPerlの祭典です.
-- 今年は8月28日から30日の3日間開催です. [YAPC::Asia Tokyo 2014](http://yapcasia.org/2014/).
-    - ｢There is more than one way to enjoy it!｣.
+- 今年は8月20日から22日の3日間開催です. [YAPC::Asia Tokyo 2015](http://yapcasia.org/2015/).
 
 ## Perlを使っている会社
+
 - LINE, DeNA, Seesaa, はてな, カヤック, mixi, Mobile Factory, FreakOut, GaiaXなどもPerlを活用しており, 優秀なPerl Mongerが数多く所属しています.
 - 過去のYAPC::Asia Tokyoにスポンサーしていた会社はPerlを最大限に活用している, もしくは一部使っているか, Perlに対して興味を持っている企業です.
 - Perlを使ったサービスとしては, はてなの｢はてなダイアリー｣やLINEの｢ライブドアブログ｣, オモロキの｢ボケて｣などが有名です.

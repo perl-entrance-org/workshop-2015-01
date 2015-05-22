@@ -151,7 +151,7 @@ ___
 
 ___
 ## CUI
-- MacもUbuntuも, Windowsと同じくGUIで操作可能です.
+- MacもLubuntuも, Windowsと同じくGUIで操作可能です.
 - ですが, プログラミングをする上でCUIは避けられません.
     - CUI ... Character User Interface
     - 文字によって操作を行うインターフェイスのことを指します.
@@ -160,7 +160,7 @@ ___
 ___
 ## CUI
 - 基本的なCUIの操作を, 実際に操作しながら体験してみましょう.
-    - 一部コマンドはUbuntuのみでしか利用できず, Macのターミナルでは使えませんのでご了承下さい.
+    - 一部コマンドはLubuntuのみでしか利用できず, Macのターミナルでは使えませんのでご了承下さい.
 
 ___
 ## ターミナルとシェル
@@ -170,22 +170,9 @@ ___
 ![シェル](public/image/shell.png)
 
 ___
-## ターミナルの開き方(Ubuntu)
+## ターミナルの開き方(Lubuntu)
 
-- デスクトップ左上, Ubuntuのロゴが書いてあるボタンをクリックします.
-
-<center>
-![Icon](public/image/install_icon.png)
-</center>
-
-___
-## ターミナルの開き方(Ubuntu)
-
-- テキストボックスに｢terminal｣と入力し, ｢端末｣をクリックして起動します.
-
-<center>
-![Terminal](public/image/call_terminal.png)
-</center>
+- 下部にあるバーの一番左側にあるボタンをクリックしてメニューを開き, ｢Accessories｣を選択してから｢LXTerminal｣をクリックして, 端末を起動します.
 
 ___
 ## ターミナルの開き方(Mac)
@@ -291,7 +278,7 @@ ___
 - `open DIRECTORY`で, `DIRECTORY`をFinderというファイルマネージャで開きます.
     - `open`は対象となるファイルの種類によって動作が変わります.
     - 例えばディレクトリが対象ならば上記のようにFinderで表示, テキストならばテキストエディタで表示...  という動作をします.
-- Ubuntuでは利用できません.
+- Lubuntuでは利用できません.
 
 ___
 ## 練習問題
@@ -310,7 +297,7 @@ ___
     - もちろん, EmacsやVimなど, 既に使い慣れているエディタがある方はそちらをお使いください.
 
 ___
-## インストール for Ubuntu
+## インストール for Lubuntu
 - [http://www.sublimetext.com/](http://www.sublimetext.com/)へアクセス, サンプルムービー下部の｢Download｣ボタンからダウンロードします.
 - ダウンロードしたファイルを右クリックして, `ここに展開する`をクリックします.
 - `Sublime Text2`というフォルダができるので, その中の`sublime text`をクリックして起動します.
@@ -444,14 +431,15 @@ ___
 - Perl5.12が登場. 2010年.
 - Perl5.14が登場. 2011年.
 - Perl5.16が登場. 2012年.
-- Perl5.18が登場. 2013年. 2014年4月現在の最新の安定版. この講義もPerl5.18を使用します.
+- Perl5.18が登場. 2013年.
+- Perl5.20が登場. 2014年. 現在の最新の安定版です. この講義もPerl5.20を使用します.
 
 ___
 ## Perl5 のバージョンの歴史
 - 5.(偶数) が安定版. 5.(奇数) が開発版です.
 - 基本的に最新版の一つ手前の安定版までがサポート対象です.
 - Perl5.8時代が長かったので, 今もPerl5.8が生き残っている現場はあるものの, 今ならPerl5.10以降だけを考えれば良いです.
-- Perl5.10以降から5.18まで, Perl初学者にとって大きな違いはあまりありません.
+- Perl5.10以降から5.20まで, Perl初学者にとって大きな違いはあまりありません.
 
 ___
 ## 様々な環境で使用可能
@@ -487,7 +475,7 @@ ___
 ___
 ## 地域コミュニティ
 - pm.orgに登録されている, 公認のコミュニティ.
-    - Hokkaido.pm, Kushiro.pm, Sendai.pm, Niigata.pm, Tokyo.pm, Shibuya.pm, Yokohama.pm, Kamakura.pm, Nagoya.pm, Kansai.pm, Kyoto.pm, Fukuoka.pm
+    - Hokkaido.pm, Kushiro.pm, Sendai.pm, Niigata.pm, Tokyo.pm, Shibuya.pm, Yokohama.pm, Kamakura.pm, Gotanda.pm Nagoya.pm, Kansai.pm, Kyoto.pm, Fukuoka.pm
 - 非公認のコミュニティ
     - Hachioji.pm, Namba.pm, ...
 - 勉強会/イベント
@@ -497,11 +485,11 @@ ___
 ## YAPC::Asia Tokyo
 - YAPC ... Yet Another Perl Conference
     - 年に一度行われる, 日本最大規模のPerlの祭典です.
-- 今年は8月28日から30日の3日間開催です. [YAPC::Asia Tokyo 2014](http://yapcasia.org/2014/).
-    - ｢There is more than one way to enjoy it!｣.
+- 今年は8月20日から22日の3日間開催です. [YAPC::Asia Tokyo 2015](http://yapcasia.org/2015/).
 
 ___
 ## Perlを使っている会社
+
 - LINE, DeNA, Seesaa, はてな, カヤック, mixi, Mobile Factory, FreakOut, GaiaXなどもPerlを活用しており, 優秀なPerl Mongerが数多く所属しています.
 - 過去のYAPC::Asia Tokyoにスポンサーしていた会社はPerlを最大限に活用している, もしくは一部使っているか, Perlに対して興味を持っている企業です.
 - Perlを使ったサービスとしては, はてなの｢はてなダイアリー｣やLINEの｢ライブドアブログ｣, オモロキの｢ボケて｣などが有名です.
@@ -521,14 +509,9 @@ ___
 ___
 ## 勉強会への参加
 - 地域.pm への参加. 
-    - Hokkaido.pm(札幌), Yokohama.pm(横浜), Kansai.pm(大阪), Kyoto.pm(京都), Fukuoka.pm(福岡), Namba.pm(PM非公式, 難波), Hachioji.pm(PM非公式, 八王子).
+    - Hokkaido.pm(札幌), Yokohama.pm(横浜), Shibuya.pm / Gotanda.pm (東京), Kansai.pm(大阪), Kyoto.pm(京都), Fukuoka.pm(福岡), Namba.pm(PM非公式, 難波), Hachioji.pm(PM非公式, 八王子)など...
 - 他のPerlの勉強会も活発.
     - Hokkaido.pm Casual(毎月第3水曜日, 札幌), Perl Casual(東京, 不定期), PerlBeginners(東京, だいたい隔月), Perl入学式(今参加しているコレ)
-
-___
-## 勉強会への参加
-- その他, 草の根でPerlの勉強会は多く催されています. 探すツールは結構多い.
-    - [国内のPerlイベントカレンダー](http://d.hatena.ne.jp/charsbar/) (@charsbarさん提供), [Azusaar](http://azusaar.appspot.com/?q=Perl), IT勉強会カレンダー, ...
 
 ___
 ## 難しい内容かもしれないので不安
@@ -590,13 +573,13 @@ ___
 - 最近のOSのシステムPerlのバージョンは新しいので、システムPerlで事足りる作業も多いです.
 - 実はこのPerl入学式でも第5回目くらいまではシステムPerlで事足ります.
 - ただ今後のことを考えてユーザPerlの構築を学んでいきましょう.
-- Ubuntuでは`apt`によって、整合性のとれたシステムPerlへのPerlモジュール導入ができるので、`apt`で手に入るモジュールであれば、これでまかなうのもありでしょう.
+- Lubuntuでは`apt`によって、整合性のとれたシステムPerlへのPerlモジュール導入ができるので、`apt`で手に入るモジュールであれば、これでまかなうのもありでしょう.
 
 ___
 ## plenvの導入準備
-    $ sudo apt-get install git curl build-essential ### Ubuntuのみ
+    $ sudo apt-get install git curl build-essential ### Lubuntuのみ
 
-- Ubuntuでは初期状態に`git`コマンドなどが入っていないので`apt-get`で導入します
+- Lubuntuでは初期状態に`git`コマンドなどが入っていないので`apt-get`で導入します
 - Macの場合は初期状態で入っている`git`コマンドが使えます
     - MacでPerl環境を構築するためのその他のコマンドは、先ほどのXcodeで完了しています
 
@@ -613,22 +596,22 @@ ___
 
 ___
 ## plenvでのperlの導入
-    $ plenv install 5.18.2
+    $ plenv install 5.20.2
 
-- 今回は2014年4月時点での最新の安定版 `perl-5.18.2` を導入します.
+- 今回は2015年4月時点での最新の安定版 `perl-5.20.2` を導入します.
 - これも時間がかかるので気長に待ちましょう.
 
 ___
 ## plenvでのperlの導入
     $ plenv versions 
     * system (set by /home/username/.plenv/version)
-      5.18.2
+      5.20.2
 
 - `plenv versions` で, 導入したPerl の一覧が見られます. `*` が付いているのが現在選択されているperlで, `plenv` 導入直前はシステムPerlが選択されているはずです.
 
 ___
 ## plenvでのperlの導入
-    $ plenv global 5.18.2
+    $ plenv global 5.20.2
     $ plenv versions
       system
     * 5.18.2 (set by /home/username/.plenv/version)
@@ -638,14 +621,14 @@ ___
 ___
 ## 現在有効なperlの確認
     $ plenv version
-    $ 5.18.2 (set by /home/ogata/.plenv/version)
+    $ 5.20.2 (set by /home/ogata/.plenv/version)
 
 - `plenv version` コマンドの他に、`perl -v` として実際にパスが通っている `perl` コマンドのバージョン情報を見るのが確実でしょう.
 
 ___
 ## 現在有効なperlの確認
     $ perl -v
-    his is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-2level
+    his is perl 5, version 20, subversion 2 (v5.20.2) built for darwin-2level
     (以下略)
 
 - 今後は原則的に, `plenv`で作成したユーザPerlを使っていきます.

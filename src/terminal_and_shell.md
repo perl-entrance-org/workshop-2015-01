@@ -2,7 +2,7 @@
 # ターミナルとシェル入門
 
 ## CUI
-- MacもUbuntuも, Windowsと同じくGUIで操作可能です.
+- MacもLubuntuも, Windowsと同じくGUIで操作可能です.
 - ですが, プログラミングをする上でCUIは避けられません.
     - CUI ... Character User Interface
     - 文字によって操作を行うインターフェイスのことを指します.
@@ -10,7 +10,7 @@
 
 ## CUI
 - 基本的なCUIの操作を, 実際に操作しながら体験してみましょう.
-    - 一部コマンドはUbuntuのみでしか利用できず, Macのターミナルでは使えませんのでご了承下さい.
+    - 一部コマンドはLubuntuのみでしか利用できず, Macのターミナルでは使えませんのでご了承下さい.
 
 ## ターミナルとシェル
 - ターミナルを開くと, シェルを使った操作が出来るようになります.
@@ -18,21 +18,9 @@
 
 ![シェル](public/image/shell.png)
 
-## ターミナルの開き方(Ubuntu)
+## ターミナルの開き方(Lubuntu)
 
-- デスクトップ左上, Ubuntuのロゴが書いてあるボタンをクリックします.
-
-<center>
-![Icon](public/image/install_icon.png)
-</center>
-
-## ターミナルの開き方(Ubuntu)
-
-- テキストボックスに｢terminal｣と入力し, ｢端末｣をクリックして起動します.
-
-<center>
-![Terminal](public/image/call_terminal.png)
-</center>
+- 下部にあるバーの一番左側にあるボタンをクリックしてメニューを開き, ｢Accessories｣を選択してから｢LXTerminal｣をクリックして, 端末を起動します.
 
 ## ターミナルの開き方(Mac)
 
@@ -127,7 +115,7 @@
 - `open DIRECTORY`で, `DIRECTORY`をFinderというファイルマネージャで開きます.
     - `open`は対象となるファイルの種類によって動作が変わります.
     - 例えばディレクトリが対象ならば上記のようにFinderで表示, テキストならばテキストエディタで表示...  という動作をします.
-- Ubuntuでは利用できません.
+- Lubuntuでは利用できません.
 
 ## 練習問題
 - ホームディレクトリに`perl-entrance`というディレクトリを作ろう.

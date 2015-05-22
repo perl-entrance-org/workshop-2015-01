@@ -2,13 +2,9 @@
 
 ## 勉強会への参加
 - 地域.pm への参加. 
-    - Hokkaido.pm(札幌), Yokohama.pm(横浜), Kansai.pm(大阪), Kyoto.pm(京都), Fukuoka.pm(福岡), Namba.pm(PM非公式, 難波), Hachioji.pm(PM非公式, 八王子).
+    - Hokkaido.pm(札幌), Yokohama.pm(横浜), Shibuya.pm / Gotanda.pm (東京), Kansai.pm(大阪), Kyoto.pm(京都), Fukuoka.pm(福岡), Namba.pm(PM非公式, 難波), Hachioji.pm(PM非公式, 八王子)など...
 - 他のPerlの勉強会も活発.
     - Hokkaido.pm Casual(毎月第3水曜日, 札幌), Perl Casual(東京, 不定期), PerlBeginners(東京, だいたい隔月), Perl入学式(今参加しているコレ)
-
-## 勉強会への参加
-- その他, 草の根でPerlの勉強会は多く催されています. 探すツールは結構多い.
-    - [国内のPerlイベントカレンダー](http://d.hatena.ne.jp/charsbar/) (@charsbarさん提供), [Azusaar](http://azusaar.appspot.com/?q=Perl), IT勉強会カレンダー, ...
 
 ## 難しい内容かもしれないので不安
 - 参加するだけなら怖くありません.

@@ -9,12 +9,12 @@
 - 最近のOSのシステムPerlのバージョンは新しいので、システムPerlで事足りる作業も多いです.
 - 実はこのPerl入学式でも第5回目くらいまではシステムPerlで事足ります.
 - ただ今後のことを考えてユーザPerlの構築を学んでいきましょう.
-- Ubuntuでは`apt`によって、整合性のとれたシステムPerlへのPerlモジュール導入ができるので、`apt`で手に入るモジュールであれば、これでまかなうのもありでしょう.
+- Lubuntuでは`apt`によって、整合性のとれたシステムPerlへのPerlモジュール導入ができるので、`apt`で手に入るモジュールであれば、これでまかなうのもありでしょう.
 
 ## plenvの導入準備
-    $ sudo apt-get install git curl build-essential ### Ubuntuのみ
+    $ sudo apt-get install git curl build-essential ### Lubuntuのみ
 
-- Ubuntuでは初期状態に`git`コマンドなどが入っていないので`apt-get`で導入します
+- Lubuntuでは初期状態に`git`コマンドなどが入っていないので`apt-get`で導入します
 - Macの場合は初期状態で入っている`git`コマンドが使えます
     - MacでPerl環境を構築するためのその他のコマンドは、先ほどのXcodeで完了しています
 
@@ -29,20 +29,20 @@
 - 簡単インストールコマンド詳細を確認したい方は `curl -L http://is.gd/plenvsetup | less` など打ってみましょう.
 
 ## plenvでのperlの導入
-    $ plenv install 5.18.2
+    $ plenv install 5.20.2
 
-- 今回は2014年4月時点での最新の安定版 `perl-5.18.2` を導入します.
+- 今回は2015年4月時点での最新の安定版 `perl-5.20.2` を導入します.
 - これも時間がかかるので気長に待ちましょう.
 
 ## plenvでのperlの導入
     $ plenv versions 
     * system (set by /home/username/.plenv/version)
-      5.18.2
+      5.20.2
 
 - `plenv versions` で, 導入したPerl の一覧が見られます. `*` が付いているのが現在選択されているperlで, `plenv` 導入直前はシステムPerlが選択されているはずです.
 
 ## plenvでのperlの導入
-    $ plenv global 5.18.2
+    $ plenv global 5.20.2
     $ plenv versions
       system
     * 5.18.2 (set by /home/username/.plenv/version)
@@ -51,13 +51,13 @@
 
 ## 現在有効なperlの確認
     $ plenv version
-    $ 5.18.2 (set by /home/ogata/.plenv/version)
+    $ 5.20.2 (set by /home/ogata/.plenv/version)
 
 - `plenv version` コマンドの他に、`perl -v` として実際にパスが通っている `perl` コマンドのバージョン情報を見るのが確実でしょう.
 
 ## 現在有効なperlの確認
     $ perl -v
-    his is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-2level
+    his is perl 5, version 20, subversion 2 (v5.20.2) built for darwin-2level
     (以下略)
 
 - 今後は原則的に, `plenv`で作成したユーザPerlを使っていきます.
