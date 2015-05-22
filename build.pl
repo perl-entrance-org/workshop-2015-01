@@ -10,7 +10,7 @@ my $dst_dir = '.';
 my @slides1 = qw/
   operating_system.md
   xcode.md
-  ubuntu_install.md
+  lubuntu_install.md
   terminal_and_shell.md
   editor.md
 /;
