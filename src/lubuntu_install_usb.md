@@ -88,7 +88,7 @@
 ## 日本語化
 
 - 最後に, Lubuntuを日本語化します
-    - ｢[Lubuntu 14.04 その1 - 日本語環境の構築と確認・インターネットに接続せずLubuntuをインストールした時は](http://kledgeb.blogspot.jp/2014/04/lubuntu-1404-1-lubuntu.html)｣と同じ処理を行います
+    - Lubuntuの日本語については, こちらの｢[Lubuntu 14.04 その1 - 日本語環境の構築と確認・インターネットに接続せずLubuntuをインストールした時は](http://kledgeb.blogspot.jp/2014/04/lubuntu-1404-1-lubuntu.html)｣のページなども参考にして下さい
 
 ### 日本語化
 
