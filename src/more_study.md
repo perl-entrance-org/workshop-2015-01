@@ -1,5 +1,7 @@
 # より深く学ぶには？
 
+<!-- ちょっと冗長なので削る -->
+
 ## 勉強会への参加
 - 地域.pm への参加.
     - Hokkaido.pm(札幌), Yokohama.pm(横浜), Shibuya.pm(渋谷), Gotanda.pm(五反田), Kansai.pm(大阪), Kyoto.pm(京都), Fukuoka.pm(福岡), Namba.pm(PM非公式, 難波), Hachioji.pm(PM非公式, 八王子), Kichijoji.pm(PM非公式, 吉祥寺)など...
