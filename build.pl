@@ -37,9 +37,9 @@ sub slurp_md {
         "\n---\n",
         map {
         my $str = path("$src_dir/$_")->slurp_utf8;
-        $str = s///g;
         $str =~ s/\n(##? )/\n___\n$1/g;
         $str =~ s!public/image!src/public/image!g;
+        $str;
         } @slides
     );
 }
