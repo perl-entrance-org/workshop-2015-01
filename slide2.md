@@ -4,6 +4,8 @@
 ---
 # Perl入学式について
 
+<!-- このへんかきなおす -->
+
 ___
 ## Perl入学式とは
 - 2011年度に大阪で開始された, プログラム初心者向けのPerl勉強会です.
@@ -36,7 +38,7 @@ ___
 - Perl入学式の公式ページ http://perl-entrance.org/
 - Twitterアカウント @[PerlEntrance](https://twitter.com/PerlEntrance)
     - 公式ページやTiwtterアカウントでは, 開催日程などがアナウンスされます.
-- Twitterハッシュタグ #[PerlEntrance](https://twitter.com/search?f=realtime&q=%23PerlEntrance)
+- Twitterハッシュタグ #[Perl入学式](https://twitter.com/hashtag/Perl%E5%85%A5%E5%AD%A6%E5%BC%8F?src=hash)
     - 運営側がウォッチしているので, なにか疑問があればこれをつけて気軽に質問してみましょう
 - [GitHubのPerl入学式アカウント](https://github.com/perl-entrance-org). 講義で使われたコードなどがあります.
 
