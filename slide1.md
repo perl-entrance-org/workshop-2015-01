@@ -292,12 +292,12 @@ ___
     - ファイルやディレクトリの名前を変更する為にも使えます.
 
 ___
-## コマンド集(nautilus)
-    $ nautilus .
+## コマンド集(pcmanfm)
+    $ pcmanfm [DIRECTORY]
 
-- `nautilus DIRECTORY`で, `DIRECTORY`をnautilusというファイルマネージャで開きます.
-- 現在のディレクトリは`.`です.
-- Macにはnautilusが搭載されていないので, 使えません.
+- `pcmanfm [DIRECTORY]`で, `DIRECTORY`をPCManFMというファイルマネージャで開きます.
+- `pcmanfm` で現在のディレクトリを開きます.
+- MacにはPCManFMが搭載されていないので, 使えません.
 
 ___
 ## コマンド集(open)
@@ -312,7 +312,7 @@ ___
 ## 練習問題
 - ホームディレクトリに`perl-entrance`というディレクトリを作ろう.
 - 作った`perl-entrance`ディレクトリに移動しよう.
-- カレントディレクトリ(`perl-entrance`)を, `nautilus`もしくは`open`を使って, ファイルマネージャで開いてみよう.
+- カレントディレクトリ(`perl-entrance`)を, `pcmanfm`もしくは`open`を使って, ファイルマネージャで開いてみよう.
 
 ---
 # エディタ入門
