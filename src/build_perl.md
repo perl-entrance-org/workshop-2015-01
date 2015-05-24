@@ -46,7 +46,7 @@
     $ plenv global 5.20.2
     $ plenv versions
       system
-    * 5.18.2 (set by /home/username/.plenv/version)
+    * 5.20.2 (set by /home/username/.plenv/version)
 
 - `plenv global` コマンドで, 使うperlを切り替えることができます.
 
