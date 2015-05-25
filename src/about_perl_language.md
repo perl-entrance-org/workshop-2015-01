@@ -24,21 +24,19 @@
     - ｢やり方はひとつじゃない｣.
 - Larryは｢プログラミング言語は, いろんな対象をシンプルに記述する為にある程度複雑でなければならない｣と信じています.
     - Perlは, 同じ意味を持つ処理をいろいろな書き方で表すことができます.
-
-## 簡潔にプログラムを書ける
-    my $number = 123;
-    my $string = 'perl';
-    print $string . $numbrer . "\n";
-
-- 動的型付け言語なので変数に型は存在しません.
-    - `my`というのはスコープの違いを示す. これは明示的に指示する必要があります.
-- C言語やJavaのような, 型のキャストなどは必要ありません.
-- よって, このように数値を格納した変数`$number`と, 文字列を格納した変数`$string`を直接文字列として結合(`.`演算子によって)できます.
+    - これについては, きっとこれからのPerl入学式のカリキュラムの中で体験することが出来ると思います.
 
 ## 高い後方互換性
 - Perlのバージョンアップによって昔のスクリプトが動かなくなる, ということはほとんどありません.
 - もちろん, Perlもバージョンアップによる細かい機能変更はあります.
     - しかし, 基本的な処理については後方互換性が相当繊細なまでに維持されています.
+
+## 豊富なモジュール
+- CPANと呼ばれるアーカイブに, 全世界のPerl Mongerがモジュールを投稿しています.
+    - Perl Monger ... Perl使いのこと. RubyにおけるRubyist, PythonにおけるPythonistaと同義です.
+- 例: Encode ... 文字列のエンコードを処理するモジュール.
+- 例: Net::Twitter ... TwitterのAPIを操作するモジュール.
+- 例: DBD::SQLite ... Perlから, SQLiteのデータベースを操作するモジュール.
 
 ## Perl5 のバージョンの歴史
 - Perl4以前は前史として, 既に周囲に環境が存在しないと思って良いです.
@@ -60,27 +58,12 @@
 - Perl5.8時代が長かったので, 今もPerl5.8が生き残っている現場はあるものの, 今ならPerl5.10以降だけを考えれば良いです.
 - Perl5.10以降から5.20まで, Perl初学者にとって大きな違いはあまりありません.
 
-## 様々な環境で使用可能
-- Linuxのほとんどのディストリビューションで標準装備となっています.
-    - システムを管理する多くのツールがPerlで書かれているためです.
-- Pythonもほとんどのディストリビューションで標準装備しています.
-    - 但しほとんどがPython2.
-- Rubyを標準で装備するディストリビューションはまだ少ないです.
-    - Macは標準装備, Mountain Lionは1.8, Mavericksは2.0.
-
-## 豊富なモジュール
-- CPANと呼ばれるアーカイブに, 全世界のPerl Mongerがモジュールを投稿しています.
-    - Perl Monger ... Perl使いのこと. RubyにおけるRubyist, PythonにおけるPythonistaと同義です.
-- 例: Encode ... 文字列のエンコードを処理するモジュール.
-- 例: Net::Twitter ... TwitterのAPIを操作するモジュール.
-- 例: DBD::SQLite ... Perlから, SQLiteのデータベースを操作するモジュール.
-
 ## 余談: Perl6について
 - Perl5とは別に, Perl6も開発されています.
     - 当初はPerl5の後継となるはずだったが, 後に｢Perl5とは別に開発を進める｣と公式に発表されました.
     - よって, Perl5の開発は継続されます.
     - また, 現在ではPerl6はPerl5とは別の言語とみなされている, と解説されることもあるほど互換性はありません. これはPerl5のバージョン間での互換性が最大限に保たれていることの裏返しでもあります.
-    - 現在の最新の安定版は5.20.2, バージョンを確認する `perl -v` では, Perl5のバージョン20.2と表記されます.
+    - 現在の最新の安定版は5.20.2, バージョンを確認する `perl -v` では, Perl5のバージョン20, のように表記されています.
 
 ## Perlのコミュニティ
 - 世界各地にPerl Monger(PM)のコミュニティが存在します.
@@ -89,7 +72,7 @@
 
 ## 地域コミュニティ
 - pm.orgに登録されている, 公認のコミュニティ.
-    - Hokkaido.pm, Kushiro.pm, Sendai.pm, Niigata.pm, Tokyo.pm, Shibuya.pm, Yokohama.pm, Kamakura.pm, Gotanda.pm Nagoya.pm, Kansai.pm, Kyoto.pm, Fukuoka.pm
+    - Hokkaido.pm, Kushiro.pm, Sendai.pm, Niigata.pm, Tokyo.pm, Shibuya.pm, Yokohama.pm, Kamakura.pm, Gotanda.pm, Nagoya.pm, Kansai.pm, Kyoto.pm, Fukuoka.pm
 - 非公認のコミュニティ
     - Hachioji.pm, Namba.pm, ...
 - 勉強会/イベント
@@ -100,16 +83,8 @@
     - 年に一度行われる, 日本最大規模のPerlの祭典です.
 - 今年は8月20日から22日の3日間開催です. [YAPC::Asia Tokyo 2015](http://yapcasia.org/2015/).
 
-## Perlを使っている会社
-
-- LINE, DeNA, Seesaa, はてな, カヤック, mixi, Mobile Factory, FreakOut, GaiaXなどもPerlを活用しており, 優秀なPerl Mongerが数多く所属しています.
-- 過去のYAPC::Asia Tokyoにスポンサーしていた会社はPerlを最大限に活用している, もしくは一部使っているか, Perlに対して興味を持っている企業です.
-- Perlを使ったサービスとしては, はてなの｢はてなダイアリー｣やLINEの｢ライブドアブログ｣, オモロキの｢ボケて｣などが有名です.
-
 ## PerlとCGI
 - 一時期, ｢PerlでWebサービスを作るならCGI｣という時代がありましたが, 今はそうではありません.
 - 最近は, PSGI(Perl Web Server Gateway Interface)という仕様に対応したWAF(Web Application Framework)を使っての開発が増えています.
     - 2014年現在, Perlの代表的かつ新規採用されやすいWAFとしては, MojoliciousやAmon2などがあります.
 - Perl入学式は｢モダンなPerlを教える｣という方針を取っていますので, CGIについては触れません.
-
-
