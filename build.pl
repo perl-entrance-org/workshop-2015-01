@@ -22,6 +22,7 @@ my @slides2 = qw/
   more_study.md
   build_perl.md
   hello_world.md
+  outro.md
 /;
 
 path("$dst_dir/slide1.md")->spew_utf8(slurp_md(@slides1));
